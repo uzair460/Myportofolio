@@ -1,0 +1,22 @@
+.contact-container {
+    padding: 2rem;
+    background: linear-gradient(to left, #2e2d2d, #353535); 
+    text-align: center;
+    color: #f9f9f9; /* Dark text for readability */
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-content a {
+    color: #08e4fc; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease;
+}
+
+.contact-content a:hover {
+    color: #005bb5; /* Darker blue on hover */
+    text-decoration: underline; /* Add underline on hover */
+}

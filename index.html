@@ -1,117 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Portfolio</title>
-		<link rel="stylesheet" href="style.css"/>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"/>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Uzair Anjum Portfolio</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="education.css">
+		<link rel="stylesheet" href="project.css">
+		<link rel="stylesheet" href="contact.css">
 	</head>
 	<body>
-		<!-- Background Video -->
-		<video id="video-background" autoplay muted loop>
-			<source src="videoplayback.webm" type="video/webm"/>
-			Your browser does not support the video tag.
-		</video>
-
-		<!-- Main Content Wrapper -->
-		<div id="main">
-			<h1>Welcome to My Portofolio</h1>
-			<h2>Please Scroll down to visite</h2>
-
-			<!-- Page Sections -->
-			<div id="page">
-				<canvas></canvas>
-			</div>
-			<div id="page1">
-				<h1>About Me</h1>
-				<p>
-				  My name is Uzair and I grew up in Italy before moving to the U.K.
-				  <br>
-				  I am a Software Engineering student in my final year. Initially, I achieved an Extended Diploma in Business.
-				  <br>
-				  After finishing my Diploma, I decided to pursue a Software Engineering degree, as I have always been interested in tech and software.
-				  <br>
-				  During my degree, I worked part-time as a Duty Manager in various businesses, which helped me develop real-life business skills.
-				</p>
-				<div id="img-grid" class="img-grid">
-				  <img src="images/me.jpeg" alt="me">
-				  <img src="images/molise.jpeg" alt="">
-				  <img src="images/IMG_D503D9E463C1-1.jpeg" alt="">
-				  <img src="images/84278EFB-BB2D-4328-9A67-CA8051666F68.JPG" alt="">
-				</div>
-			  </div>
-			  
-			<div id="page2" id="projects">
-				<h1>My Projects</h1>
-				<div class="project-grid">
-					<div class="project-item">
-						<img src="images/Screenshot 2024-10-31 at 19.30.18.png" alt="GreenAware Project">
-						<div class="project-description">
-							<h2>GreenAware</h2>
-							<p>A web application focused on environmental sustainability insights and analytics. Includes loging in and acount managment System, Admin panel and a Messaging feature 
-                                <br>
-								Open Project at
-								<a href="https://github.com/uzair460/Greenaware-project">GitHub Link</a>
-                                <br>
-                                Stack used:
-							</p>
-							<div class="tech-stack">
-								<img src="images/html5.svg" alt="HTML5">
-								<img src="images/css3.svg" alt="CSS3">
-								<img src="images/javascript.svg" alt="JavaScript">
-								<img src="images/nodedotjs.svg" alt="">
-								<img src="images/express.svg" alt="">
-								<img src="images/mongodb.svg" alt="">
-							<!-- Add other icons as needed -->
-							</div>
-						</div>
-					</div>
-					<div class="project-item">
-						<img src="images/background image .jpeg" alt="Inventory Management Project">
-						<div class="project-description">
-							<h2>Inventory Management App</h2>
-							<p>Helps small businesses manage stock includes sales data visualizations and maniputaion in a react-native app with 
-								QR code scaning features to manage and perfome CRUD features with in the inventory database.
-							</p>
-							<div class="tech-stack">
-								<img src="images/mongodb.svg" alt="mongodb">
-								<img src="images/react.svg" alt="React">
-								<img src="images/nodedotjs.svg" alt="Node.js">
-								<img src="images/express.svg" alt="express">
-								<img src="images/javascript.svg" alt="Node.js">
-							<!-- Add other icons as needed -->
-							</div>
-						</div>
-					</div>
-					<div class="project-item">
-						<img src="/images/Screenshot 2024-12-07 at 18.26.10.png" alt="Inventory Management Project">
-						<div class="project-description">
-							<h2>CleanSMRS REST API and E-Commers platform</h2>
-							<p> a Pyhton base project done in a team of 4 in a Agile workplace, a SCRUM master and a product owener.
-								API done in Flask and E-Commers website done in DJango with a SQLite database. 
-							</p>
-							<div class="tech-stack">
-								<img src="images/django.svg" alt="mongodb">
-								<img src="images/python.svg" alt="React">
-								<img src="images/mysql.svg" alt="Node.js">
-								<img src="images/css3.svg" alt="express">
-								<img src="images/html5.svg" alt="Node.js">
-							<!-- Add other icons as needed -->
-							</div>
-						</div>
-					</div>
-
+		<div class="container">
+			<div class="header">
+				<div class="header-content">
+					<h1>Uzair Anjum</h1>
+					<p>Software Engineer</p>
+					<a href="#about">About</a>
+					<a href="#project">Projects</a>
+					<a href="#education">Education</a>
+					<a href="#contact">Contact</a>
 				</div>
 			</div>
-            <div id="page3">
-                <h2>Contact Me</h2>
-                <p>Email: <a href="mailto:anjumuzair46@gmail.com">anjumuzair46@gmail.com</a></p>
-                <p>Phone: +44 7442 138 042</p>
-                <div class="contact-details">
-                    <a href="https://github.com/uzair460" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub Logo" style="width: 30px;"></a>
-                    <a href="https://www.linkedin.com/in/uzair-anjum-4070801b4/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn Logo" style="width: 30px;"></a>
-                </div>
-		    </div>
+			<div>
+				<div class="about" id="about">
+					<div class="about-content">
+						<h2>About Me</h2>
+						<p>A skilled professional with expertise in data analysis, web development, mobile applications and machine learning.<br>
+							Proficient in SQL, database programming, and API integration, with a strong understanding of software development methodologies including Agile and Scrum frameworks.<br>
+							Experienced in using the MERN stack and the Django framework and Flask for web applications, complemented by a<br>
+							foundational knowledge of machine learning. Committed to leveraging technical skills to drive innovation and efficiency in software solutions.
+						</p>
+					</div>
+					<div class="about-image">
+						<img src="images/IMG_D503D9E463C1-1.jpeg" alt="Uzair Anjum">
+					</div>
+					<div class="about-image">
+						<img src="images/me.jpeg" alt="Uzair Anjum" class="me">
+					</div>
+				</div>
+				<div class="education-container" id="education">
+					<div class="education-box bolton">
+						<img src="/images/university_of_bolton_logo.jpeg" alt="University of Bolton Logo" class="school-logo">
+						<h3>University of Bolton</h3>
+						<p class="degree">BEng Software Engineering</p>
+						<div class="details">
+							<p class="duration">2022 - 2025</p>
+							<div class="skills">
+								<span>AWS</span>
+								<span>MERN</span>
+								<span>Python</span>
+								<span>Java</span>
+								<span>React Native</span>
+								<span>Machine Learning</span>
+								<span>SQL</span>
+								<span>MongoDB</span>
+								<span>Django</span>
+								<span>Flask</span>
+								<span>R Studio</span>
+								<span>Agile</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="education-box manchester">
+						<img src="/images/the_manchester_college_logo.jpeg" alt="Manchester College Logo" class="school-logo">
+						<h3>The Manchester College</h3>
+						<p class="degree">BTEC Business & Finance</p>
+						<div class="details">
+							<p class="duration">2019 - 2022</p>
+							<div class="qualifications">
+								<p>Extended BTEC Diploma (D*D*D)</p>
+								<p>Functional Skills: Math & English</p>
+							</div>
+						</div>
+					</div>
+					<div class="education-content" id="education-content">
+						<h2>Education</h2>
+						<p>My educational background started in Italy until Hight school and then moved to the Uk in 2018.
+							<br>
+							It includes a BEng in Software Engineering from the University of Bolton and a BTEC in Business & Finance from The Manchester College.<br>
+							I started College with Business and after achiving that, I decided to to perseus my interest in Software with a Software Engineering degree.</p>
+					</div>
+				</div>
+				<div class="project-container" id="project">
+					<div class="project-content">
+						<h2>Projects</h2>
+						<p>
+							<strong>Oct 2024 - Present</strong><br>
+							Associated with The University of Bolton<br><br>
+							The Data Visualizing Inventory Management App is a web and mobile-based application designed to help small businesses efficiently manage their inventory.
+							<br>
+							It offers real-time inventory tracking, data visualization, and mobile integration with barcode scanning to streamline stock management and improve decision-making.<br><br>
+							🚀
+							<strong>Features:</strong><br>
+							- Real-Time Inventory Management: Track stock levels with real-time updates.<br>
+							- Data Visualization: Generate insightful reports and graphs to analyze inventory trends.<br>
+							- Mobile Integration: Use the mobile app for on-the-go inventory updates and barcode scanning.<br>
+							- Low Stock Alerts: Get notified when stock levels drop below predefined thresholds.<br>
+							- User-Friendly Interface: Designed for non-technical users with simplicity in mind.<br><br>
+							🛠️
+							<strong>Tech Stack:</strong><br>
+							- Web Application: React, HTML, CSS, JavaScript (Frontend); Node.js, Express.js (Backend)<br>
+							- Mobile Application: React Native<br>
+							- Database: MongoDB<br>
+							- Cloud AWS: EC-2 Ubuntu Server, AWS S3 Bucket<br>
+							- Additional Tools: React Native Camera (Barcode Scanning), Firebase/Twilio (Notifications)<br><br>
+							<strong>Skills:</strong>
+							Web Development, Project Management, Data Visualization, Mobile App Development, Cloud Computing, Database Management
+						</p>
+					</div>
+					<div class="project-box">
+						<img src="/images/project1.jpeg" alt="Data-Visualizing Inventory Management App" class="school-logo">
+						<h3>Data-Visualizing Inventory Management App</h3>
+						<div class="details">
+							<p class="duration">Oct 2024 - Present</p>
+							<div class="skills">
+								<span>Web Development</span>
+								<span>Project Management</span>
+								<span>Data Visualization</span>
+								<span>Mobile App Development</span>
+								<span>Cloud Computing</span>
+								<span>Database Management</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contact-container" id="contact">
+					<div class="contact-content">
+						<h2>Contact</h2>
+						<p>
+							<strong>Email:</strong> <a href="mailto:anjumuzair46@gmail.com">anjumuzair46@gmail.com</a><br>
+							<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/uzair-anjum-4070801b4/" target="_blank">linkedin.com/in/uzair-anjum</a><br>
+							<strong>GitHub:</strong> <a href="https://github.com/uzair460" target="_blank">github.com/uzair460</a>
+						</p>
+					</div>
+				</div>
+				</body>
+			</html>
+		</body>
 	</body>
-</html></div><div id="page3" id="contacts">Contact Section</div></div><!-- Scripts --><script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script><script src="script.js"></script></body></html>
+</html>

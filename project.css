@@ -1,0 +1,70 @@
+.project-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center; /* Align text to the left */
+    color: #fff;
+    background: linear-gradient(to right, #5e5d5d, #060606);
+    align-items: flex-start; /* Align items to the top */
+}
+
+.project-content {
+    flex: 1; /* Take up remaining space */
+}
+
+.project-box {
+    background: #070707;
+    border-radius: 15px;
+    width: 300px;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #444;
+    box-shadow: 0 5px 10px rgba(4, 216, 248, 0.2);
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.school-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.project-box h3 {
+    color: #fff;
+    margin: 0.5rem 0;
+}
+
+.details {
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.project-box:hover .details {
+    max-height: 300px;
+    opacity: 1;
+    margin-top: 1rem;
+}
+
+.duration {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.skills span {
+    display: inline-block;
+    background: #444;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.8rem;
+    margin: 0.3rem;
+}
