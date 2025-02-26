@@ -13,7 +13,7 @@
 }
 
 .project-box {
-    background: #070707;
+  /*  background: #070707; */
     border-radius: 15px;
     width: 300px;
     padding: 1.5rem;
