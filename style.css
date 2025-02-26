@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to left, #2e2d2d, #353535);  
+    /* background: linear-gradient(to left, #2e2d2d, #353535);  */
     font-family: Arial, sans-serif;
     
 }
@@ -12,6 +12,19 @@ html, body {
     padding: 0;
 }
 
+#myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        filter: blur(5px); /* Apply blur effect */
+        background: no-repeat;
+        background-size: cover;
+    }
 
 .header {
     color: #f5f0f0;
@@ -35,7 +48,7 @@ html, body {
 }
 
 .about {
-    background: linear-gradient(to right, #5e5d5d, #060606); 
+    /*background: linear-gradient(to right, #5e5d5d, #060606); */
     color: #f5f0f0;
     padding: 10px;
     display: flex; /* Display items side by side */
@@ -53,7 +66,7 @@ html, body {
     width: 310px; /* Adjust width to fit both images */
     height: 210px; /* Set a fixed height */
     overflow: hidden; /* Hide overflow */
-    box-shadow: 0 5px 10px rgba(4, 216, 248, 0.2); /* Add shadow to the image */
+    box-shadow: 0 5px 10px rgb(4, 216, 248); /* Add shadow to the image */
 }
 .about-image img {
     width: 100%; /* Each image takes up half the width */

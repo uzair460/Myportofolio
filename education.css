@@ -4,7 +4,7 @@
     padding: 2rem;
     text-align: center;
     color: #fff;
-    background: linear-gradient(to left, #5e5d5d, #060606); 
+   /* background: linear-gradient(to left, #5e5d5d, #060606); */
 
 }
 
@@ -19,7 +19,7 @@
     transition: 0.3s ease;
     cursor: pointer;
     border: 1px solid #444;
-    box-shadow: 0 5px 10px rgba(4, 216, 248, 0.2);
+    box-shadow: 0 5px 10px rgb(4, 216, 248);
 }
 
 .education-box:hover {
